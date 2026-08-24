@@ -10,7 +10,8 @@ def insertion(num_list : list[int]) -> None: # Swap bigger to right and small to
             j -= 1
            
         num_list[j+1] = key 
-        print(num_list)
+    
+    print(num_list)
          
 
 num_list = [40 , 30 , 20 , 10]
